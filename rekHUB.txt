@@ -1,0 +1,70 @@
+
+
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wall%20v3')))()
+
+local w = library:CreateWindow("RekHUB") 
+
+local b = w:CreateFolder("Jailbreak") 
+b:Label("More soon..",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+}) 
+
+
+b:Button("Auto Rob",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/alohabeach/Main/master/Scripts/JailbreakAutoRob.lua"))()
+end)
+
+
+local b = w:CreateFolder("Murder Mystery 2")
+b:Label("More soon..",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+}) 
+
+
+b:Button("Eclipse",function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+end)
+
+local b = w:CreateFolder("Counter Blox")
+b:Label("More soon..",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+}) 
+
+
+b:Button("Hexagon",function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pawel12d/hexagon/main/scripts/CounterBlox.lua', true))()
+end)
+
+local b = w:CreateFolder("The Wild West")
+b:Label("More soon..",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+}) 
+
+
+
+b:Button("OP Gui",function()
+loadstring(game:HttpGet("https://thisstuff.xyz/Api/WOAHSCRIPTS/1257821635-9356095531/oOAfkpCWzDWsn4CjuLZLZOs3vCf4rgUMhXaJd32VyHSs2tojOCTUKINNTbAuTTCGFrYTyMeBDEIfdo7C0Sp5EnCyxN80pHf5jpqk2xU7f1LAcx2Nt1cZe", true))()
+end)
+
+
+
+
+local b = w:CreateFolder("Settings")
+
+b:Button("Credits (press F9)",function()
+print("Owner of rekHUB: qwqwq2000#7548      Hexagon: Pawel12#0272            Eclipse: Doggo#0931 and Ethanoj#3304     WildWest gui: ThisStuff    ")
+end)
+
+b:DestroyGui()
