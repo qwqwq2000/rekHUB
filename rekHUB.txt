@@ -69,7 +69,7 @@ b:Label("More soon..",{
 
 
 b:Button("OP Skywars GUI",function()
-loadstring(gameHttpGetAsync(httpsraw.githubusercontent.comDohmBoyOGScript-DumpmainOPSkywarsGUI_NolixXDohmScripts_Public.lua))()
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/DohmBoyOG/Script-Dump/main/OPSkywarsGUI_NolixXDohmScripts_Public.lua"))()
 end)
 
 
