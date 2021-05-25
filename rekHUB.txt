@@ -58,6 +58,20 @@ b:Button("Mortem Metallum Script",function()
 loadstring(game:HttpGet("https://gist.githubusercontent.com/coolguywithabigdong/965c150473d6030b1e2a6e88294cc8ee/raw/cc50b977760cc21254e363c603ccdd1c4936392b/gistfile1.txt", true))()
 end)
 
+local b = w:CreateFolder("SKYWARS")
+b:Label("More soon..",{
+    TextSize = 25; -- Self Explaining
+    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
+    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
+    
+}) 
+
+
+
+b:Button("OP Skywars GUI",function()
+loadstring(gameHttpGetAsync(httpsraw.githubusercontent.comDohmBoyOGScript-DumpmainOPSkywarsGUI_NolixXDohmScripts_Public.lua))()
+end)
+
 
 
 
