@@ -5,12 +5,7 @@ local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/bloo
 local w = library:CreateWindow("RekHUB") 
 
 local b = w:CreateFolder("Jailbreak") 
-b:Label("More soon..",{
-    TextSize = 25; -- Self Explaining
-    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
-    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
-    
-}) 
+
 
 
 b:Button("Auto Rob",function()
@@ -19,12 +14,7 @@ end)
 
 
 local b = w:CreateFolder("Murder Mystery 2")
-b:Label("More soon..",{
-    TextSize = 25; -- Self Explaining
-    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
-    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
-    
-}) 
+
 
 
 b:Button("Eclipse",function()
@@ -32,12 +22,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM
 end)
 
 local b = w:CreateFolder("Counter Blox")
-b:Label("More soon..",{
-    TextSize = 25; -- Self Explaining
-    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
-    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
-    
-}) 
+
 
 
 b:Button("Hexagon",function()
@@ -45,12 +30,7 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Pawel12d/hexagon/main
 end)
 
 local b = w:CreateFolder("Mortem Metallum")
-b:Label("More soon..",{
-    TextSize = 25; -- Self Explaining
-    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
-    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
-    
-}) 
+
 
 
 
@@ -59,12 +39,7 @@ loadstring(game:HttpGet("https://gist.githubusercontent.com/coolguywithabigdong/
 end)
 
 local b = w:CreateFolder("SKYWARS")
-b:Label("More soon..",{
-    TextSize = 25; -- Self Explaining
-    TextColor = Color3.fromRGB(255,255,255); -- Self Explaining
-    BgColor = Color3.fromRGB(69,69,69); -- Self Explaining
-    
-}) 
+
 
 
 
